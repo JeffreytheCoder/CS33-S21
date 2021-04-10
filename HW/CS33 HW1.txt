@@ -1,0 +1,38 @@
+Jeffrey Yu
+305587107
+
+2.71
+a. The program will fail if the input byte is negative. 
+Since the most significant bit of a negative two's complement integer is 1, &0xFF would have 0 at the most significant bit, which reverses the sign.
+
+b.
+int xbyte(packed_t word, int bytenum) {
+    int byte = word << ((3 - bytenum) << 3);
+    return byte >> 24;
+}
+
+2.82
+a. No.
+If x = TMin and y is a random int larger than TMin, 
+-x is TMin, and -x is still less than -y. 
+
+b. Yes
+(x + y) * 16 + y – x = 17y + 15x
+
+c. Yes
+Since ~x = -x – 1, ~y = -y – 1,
+~x + ~y + 1 
+= (-x - 1) + (-y - 1) + 1
+= -(x + y) - 1
+= ~(x + y)
+ 
+d. Yes
+-(unsigned)(y - x)
+= -((unsigned) y - (unsigned) x)
+= -(uy - ux)
+= (ux - uy)
+
+e. Yes
+If 2 least significant bits are 1, then ((x >> 2) << 2) = x - 3
+If 1 least significant bit is 1, then ((x >> 2) << 2) = x - 1
+If 2 least significant bit are 0, then ((x >> 2) << 2) = x
