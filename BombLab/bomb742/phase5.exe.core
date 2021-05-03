@@ -1,0 +1,23 @@
+[main] phase5 1000 (0) exception: trapped!
+[main] phase5 1000 (0) exception: code 0xC0000005 at 0x6105EDDA
+[main] phase5 1000 (0) exception: ax 0x0 bx 0xF cx 0xF dx 0x244FB7E
+[main] phase5 1000 (0) exception: si 0x0 di 0x244FCE4 bp 0x244FA9C sp 0x244FA8C
+[main] phase5 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] phase5 1000 (0) stack: Stack trace:
+[main] phase5 1000 (0) stack: frame 0: sp = 0x244F418, pc = 0x6100A2C3
+[main] phase5 1000 (0) stack: frame 1: sp = 0x244F454, pc = 0x77629F62
+[main] phase5 1000 (0) stack: frame 2: sp = 0x244F478, pc = 0x77629F34
+[main] phase5 1000 (0) stack: frame 3: sp = 0x244F544, pc = 0x776153C6
+[main] phase5 1000 (0) stack: frame 4: sp = 0x244FA9C, pc = 0x610585EF
+[main] phase5 1000 (0) stack: frame 5: sp = 0x244FD44, pc = 0x6105845C
+[main] phase5 1000 (0) stack: frame 6: sp = 0x244FD5C, pc = 0x61053F31
+[main] phase5 1000 (0) stack: frame 7: sp = 0x244FD74, pc = 0x401057
+[main] phase5 1000 (0) stack: frame 8: sp = 0x244FD98, pc = 0x401163
+[main] phase5 1000 (0) stack: frame 9: sp = 0x244FDBC, pc = 0x61004402
+[main] phase5 1000 (0) stack: frame 10: sp = 0x244FF38, pc = 0x61004420
+[main] phase5 1000 (0) stack: frame 11: sp = 0x244FF44, pc = 0x4012AE
+[main] phase5 1000 (0) stack: frame 12: sp = 0x244FF54, pc = 0x40103A
+[main] phase5 1000 (0) stack: frame 13: sp = 0x244FF70, pc = 0x75566359
+[main] phase5 1000 (0) stack: frame 14: sp = 0x244FF80, pc = 0x77608944
+[main] phase5 1000 (0) stack: frame 15: sp = 0x244FFDC, pc = 0x77608914
+[main] phase5 1000 (0) stack: End of stack trace (more stack frames may be present)
