@@ -1,0 +1,5 @@
+CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+CC CC CC CC CC CC CC CC CC CC CC CC CC CC
+CC CC CC CC CC CC CC CC CC CC CC CC CC CC /* 56 bytes padding (buffer size) */
+45 19 40 00 00 00 00 00 /* touch1 address */
